@@ -1,0 +1,38 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.result {
+  grid-column: span 4; /* Make the result span all 4 columns */
+  font-size: 24px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #53e9d8ee;
+  background-color: #f5ef57;
+  color: #7b1717;
+  cursor: pointer;
+}
+
+/* Add specific styles for operator buttons */
+.operator {
+  background-color: #fb33f1;
+}
+
+/* Add specific styles for clear button */
+.clear {
+  background-color: #81f052;
+}
+
+/* Add specific styles for calculate button */
+.calculate {
+  background-color: #4a6c9d;
+}
