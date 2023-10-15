@@ -1,0 +1,88 @@
+body {
+  background-color: #6cd8f4;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-list {
+  max-width: 720px;
+  margin: 20px auto;
+  background-color: #faf565;
+  box-shadow: 0 2px 4px #6af67c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(101, 6, 6);
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-input label {
+  margin-right: 10px;
+  color: rgb(128, 104, 250);
+}
+
+.task-input input[type="date"] {
+  padding: 5px;
+}
+
+.task-input button {
+  background-color: #008cba;
+  color: #afe84c;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.completed-tasks h2,
+.pending-tasks h2 {
+  border-bottom: 2px solid #201414;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: rgb(27, 4, 4); /* Change to white */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+}
+
+li.complete {
+  background-color: #d4edda;
+}
+
+li.pending {
+  background-color: #ebbdc0;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: auto;
+}

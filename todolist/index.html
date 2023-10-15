@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO List</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="todo-list">
+      <h1>TO DO LIST</h1>
+      <div class="task-input">
+        <label for="task-name">Enter Your Task Name Here :</label>
+        <input type="text" id="task-name" />
+        <label for="task-date">Enter Due Date For The Task Here:</label>
+        <input type="date" id="task-date" />
+        <button onclick="addTask()">Add My Task</button>
+      </div>
+      <div class="completed-tasks">
+        <h2>Your Completed Tasks</h2>
+        <ul id="completed-tasks-list"></ul>
+      </div>
+      <div class="pending-tasks">
+        <h2>Pending Tasks List</h2>
+        <ul id="pending-tasks-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
