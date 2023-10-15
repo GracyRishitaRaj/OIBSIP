@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secured Page</title>
+    <style>
+
+
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f56767;
+        margin: 0;
+        padding: 0;
+      }
+
+
+
+
+      .protected-content {
+        text-align: center;
+        margin: 100px auto;
+        padding: 40px;
+        width: 70%;
+        background-color: #d9fb68;
+        border: 1px solid #9666de;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .protected-content h1 {
+        font-size: 32px;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 18px;
+        background-color: #4caf50;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .logout-button {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 18px;
+        background-color: #ce1f19;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+
+      .logout-button:hover {
+        background-color: #ce1f19;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="protected-content">
+      <h1>Welcome to the Secure Area</h1>
+      <a href="index.html" class="logout-button">Log Out</a>
+    </div>
+  </body>
+</html>

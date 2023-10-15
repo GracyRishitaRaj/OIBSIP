@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body styles */
+body {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #55d1fb; /* Light Gray */
+}
+
+/* Form container styles */
+.signup-form {
+  background: #32d45e; /* White */
+  border: 1px solid #d7e938; /* Light Gray */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px 35px 60px;
+  border-radius: 5px;
+}
+
+.login-form {
+  background: #ffffff; /* White */
+  border: 1px solid #d1d1d1; /* Light Gray */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px 35px 60px;
+  border-radius: 5px;
+}
+
+/* Text styles */
+.text {
+  font-size: 30px;
+  color: #333333; /* Dark Gray */
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Field styles */
+.field {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.field .fas {
+  height: 50px;
+  width: 60px;
+  color: #333333; /* Dark Gray */
+  font-size: 20px;
+  line-height: 50px;
+  border: 1px solid #d1d1d1; /* Light Gray */
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  background: #ffffff; /* White */
+}
+
+/* Input styles */
+.field input[type="text"],
+.field input[type="password"] {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #333333; /* Dark Gray */
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #3498db; /* Medium Blue */
+  background: transparent;
+  transition: border-bottom 0.3s;
+}
+
+.field input[type="text"]:focus,
+.field input[type="password"]:focus {
+  border-bottom: 2px solid #2980b9; /* Slightly Darker Blue */
+}
+
+/* Button styles */
+button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  border-radius: 5px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: #3498db; /* Medium Blue */
+  color: #fff;
+  border: none;
+  width: 100%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: #2980b9; /* Slightly Darker Blue */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3), 0 0 10px rgba(52, 152, 219, 0.2),
+    0 0 15px rgba(52, 152, 219, 0.1), 0 2px 0 black;
+  color: #fff;
+}
+
+/* Link styles */
+.link {
+  margin-top: 25px;
+  color: #888888; /* Light Gray */
+}
+
+.link a {
+  color: #3498db; /* Medium Blue for links */
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
