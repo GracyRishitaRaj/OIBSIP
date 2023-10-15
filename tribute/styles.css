@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5481ad;
+  color: rgb(243, 237, 237);
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+  font-style: italic;
+  color: #e8179f;
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: #b5d5f4;
+  color: rgb(220, 62, 62);
+  text-align: center;
+  padding: 1rem 0;
+}
